@@ -64,10 +64,10 @@ function game(){
     console.log("Computer:", computerScore);
 
     if(humanScore > computerScore){
-        console.log("You are the final winner 🎉");
+        console.log("You are the final winner");
     }
     else if(computerScore > humanScore){
-        console.log("Computer is the final winner 🤖");
+        console.log("Computer is the final winner ");
     }
     else{
         console.log("Game is a tie");
